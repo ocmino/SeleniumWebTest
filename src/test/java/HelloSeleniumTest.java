@@ -42,6 +42,7 @@ class HelloSeleniumTest {
         driver.get(testURL);
         //Check title is correct
         Assertions.assertEquals(driver.getTitle(), "Welcome to Spring Boot Chat Application");
+        System.out.println(driver.getTitle());
     }
 
     @Test
